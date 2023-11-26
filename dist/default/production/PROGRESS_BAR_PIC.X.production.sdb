@@ -1,0 +1,109 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"7 E:\PROJECTS\PROGRESS BAR\PROGRESS BAR PIC.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+"33
+[v _cmd cmd `(v  1 e 1 0 ]
+"43
+[v _data data `(v  1 e 1 0 ]
+"61
+[v _delay delay `(v  1 e 1 0 ]
+"68
+[v _CreateCustomCharacter CreateCustomCharacter `(v  1 e 1 0 ]
+"26059 C:\Program Files\Microchip\xc8\v2.32\pic\include\proc\pic18f4580.h
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"26838
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"27060
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"27282
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"27504
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"30189
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"36229
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"36232
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"7 E:\PROJECTS\PROGRESS BAR\PROGRESS BAR PIC.X\newmain.c
+[v _main main `(v  1 e 1 0 ]
+{
+"9
+[v main@Pattern1 Pattern1 `[8]uc  1 a 8 37 ]
+"12
+[v main@Pattern4 Pattern4 `[8]uc  1 a 8 29 ]
+"11
+[v main@Pattern3 Pattern3 `[8]uc  1 a 8 21 ]
+"10
+[v main@Pattern2 Pattern2 `[8]uc  1 a 8 13 ]
+"8
+[v main@F10472 F10472 `[8]uc  1 s 8 F10472 ]
+"9
+[v main@F10474 F10474 `[8]uc  1 s 8 F10474 ]
+"10
+[v main@F10476 F10476 `[8]uc  1 s 8 F10476 ]
+"11
+[v main@F10478 F10478 `[8]uc  1 s 8 F10478 ]
+"32
+} 0
+"68
+[v _CreateCustomCharacter CreateCustomCharacter `(v  1 e 1 0 ]
+{
+"70
+[v CreateCustomCharacter@i i `i  1 a 2 11 ]
+"68
+[v CreateCustomCharacter@Pattern Pattern `*.39uc  1 p 2 6 ]
+[v CreateCustomCharacter@Location Location `Cuc  1 p 1 8 ]
+"74
+} 0
+"43
+[v _data data `(v  1 e 1 0 ]
+{
+[v data@b b `uc  1 a 1 wreg ]
+[v data@b b `uc  1 a 1 wreg ]
+"46
+[v data@b b `uc  1 a 1 4 ]
+"51
+} 0
+"33
+[v _cmd cmd `(v  1 e 1 0 ]
+{
+[v cmd@a a `i  1 p 2 4 ]
+"42
+} 0
+"61
+[v _delay delay `(v  1 e 1 0 ]
+{
+"63
+[v delay@j j `i  1 a 2 2 ]
+[v delay@i i `i  1 a 2 0 ]
+"66
+} 0
